@@ -16,6 +16,7 @@ import Locations from "./Pages/Locations";
 import Partner from "./Pages/Partner";
 import Privacy from "./Pages/Privacy";
 import Terms from "./Pages/Terms";
+import RentDetails from "./Pages/RentDetails";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path : "/rent",
         element : <Rent/>
+      },
+      {
+        path : "/rent/:id",
+        element : <RentDetails/>
       }
       ,
       {

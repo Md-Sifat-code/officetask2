@@ -5,6 +5,7 @@ import Discover from '../BuyComponents/Discover';
 import ExploreNow from '../BuyComponents/ExploreNow';
 import Buy_Partners from '../BuyComponents/Buy_Partners';
 import MakeBest from '../BuyComponents/MakeBest';
+import Display from '../BuyComponents/Display';
 
 const Buy: React.FC = () => {
   return (
@@ -23,6 +24,9 @@ const Buy: React.FC = () => {
       </div>
       <div>
         <MakeBest/>
+      </div>
+      <div>
+        <Display/>
       </div>
     </div>
   );

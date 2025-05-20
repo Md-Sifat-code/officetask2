@@ -6,10 +6,65 @@ import {
 } from "react-router-dom";
 import "./index.css";
 
+import  MainLayout from "./Layouts/Main_Layout";
+import Buy from "./Pages/Buy";
+import Sell from "./Pages/Sell";
+import Rent from "./Pages/Rent";
+import Company from "./Pages/Comapny";
+import Visas from "./Pages/Visas";
+import Locations from "./Pages/Locations";
+import Partner from "./Pages/Partner";
+import Privacy from "./Pages/Privacy";
+import Terms from "./Pages/Terms";
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <MainLayout/>,
+    children : [
+      {
+        path : "/",
+        element: <Buy/>
+      },
+      {
+        path : "/sell",
+        element : <Sell/>
+      }
+      ,
+      {
+        path : "/rent",
+        element : <Rent/>
+      }
+      ,
+      {
+        path : "/company",
+        element : <Company/>
+      }
+      ,
+      {
+        path : "/visas",
+        element : <Visas/>
+      }
+      ,
+      {
+        path : "/Location",
+        element : <Locations/>
+      },
+      {
+        path : "/partner",
+        element : <Partner/>
+      }
+      ,
+      {
+        path : "/privacy",
+        element : <Privacy/>
+      }
+      ,
+      {
+        path : "/terms",
+        element : <Terms/>
+      }
+    ]
   },
 ]);
 

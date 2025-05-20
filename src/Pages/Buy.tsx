@@ -6,6 +6,7 @@ import ExploreNow from '../BuyComponents/ExploreNow';
 import Buy_Partners from '../BuyComponents/Buy_Partners';
 import MakeBest from '../BuyComponents/MakeBest';
 import Display from '../BuyComponents/Display';
+import Lavelup from '../BuyComponents/Lavelup';
 
 const Buy: React.FC = () => {
   return (
@@ -27,6 +28,9 @@ const Buy: React.FC = () => {
       </div>
       <div>
         <Display/>
+      </div>
+      <div>
+        <Lavelup/>
       </div>
     </div>
   );

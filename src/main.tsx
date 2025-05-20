@@ -17,6 +17,7 @@ import Partner from "./Pages/Partner";
 import Privacy from "./Pages/Privacy";
 import Terms from "./Pages/Terms";
 import RentDetails from "./Pages/RentDetails";
+import Investment from "./Pages/Investment";
 
 const router = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
       {
         path : "/terms",
         element : <Terms/>
+      },
+      {
+        path:"/invest",
+        element:<Investment/>
       }
     ]
   },

@@ -1,5 +1,5 @@
 import card from '/assets/card.jpg'
-
+import explore from '/assets/explore.jpg'
 const WhyShould: React.FC = () => {
     interface InfoItem {
         title: string;
@@ -94,15 +94,35 @@ const WhyShould: React.FC = () => {
                     ))}
                 </div>
 
-                <div className='my-8 flex justify-between px-2 py-2'>
-                    <div className='space-y-3'>
-                        <h1 className='text-[#F4A896] text-4xl '>Explore Options for the Best Property Investment in Dubai</h1>
-                        <p className='text-sm text-gray-400'>At Prime Location Properties, our expert team brings years of experience in Dubai’s real estate market. With deep knowledge of local trends and regulations, we help clients make smart investment choices while avoiding hidden obstacles and costly mistakes.</p>
-                        <p className='text-sm text-gray-400'><b>Expert Guidance You Can Trust:</b> Our goal is to help you invest wisely and grow your wealth through carefully selected property opportunities. We are fully committed to:</p>
-                        <p></p>
+                <div className="my-8 flex flex-col lg:flex-row justify-between gap-6 px-4 py-6 items-center">
+                    {/* Text section */}
+                    <div className="space-y-4 flex-1">
+                        <h1 className="text-[#F4A896] text-3xl lg:text-4xl leading-snug">
+                            Explore Options for the Best Property Investment in Dubai
+                        </h1>
+                        <p className="text-sm text-gray-500">
+                            At Prime Location Properties, our expert team brings years of experience in Dubai’s real estate market. With deep knowledge of local trends and regulations, we help clients make smart investment choices while avoiding hidden obstacles and costly mistakes.
+                        </p>
+                        <p className="text-sm text-gray-500">
+                            <b>Expert Guidance You Can Trust:</b> Our goal is to help you invest wisely and grow your wealth through carefully selected property opportunities. We are fully committed to:
+                        </p>
+                        <p className="text-sm text-gray-500">
+                            <b>A Wide Range of Investment Opportunities:</b> Whether you're a seasoned investor or exploring your first property in Dubai, we offer a diverse selection of real estate options across the city. From luxury apartments to villas, off-plan developments to commercial units — we can tailor opportunities to fit your vision and budget.
+                            <br /><br />
+                            <b>Your Success Is Our Priority:</b> No matter your investment type or strategy, we are here to guide you every step of the way. Our mission is to equip you with everything you need for maximum revenue growth and long-term success in Dubai's dynamic property market.
+                        </p>
                     </div>
-                    <div></div>
+
+                    {/* Image section */}
+                    <div className="flex-1">
+                        <img
+                            src={explore}
+                            alt="Explore Property"
+                            className="w-full max-w-[500px] mx-auto object-cover rounded-md"
+                        />
+                    </div>
                 </div>
+
             </div>
         </div>
     );

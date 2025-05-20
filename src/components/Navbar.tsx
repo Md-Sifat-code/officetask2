@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="hidden md:flex space-x-6 text-black">
+        <div className="hidden md:flex space-x-6 text-white">
           <a href="#" className="hover:text-gray-300">Buy</a>
           <a href="#" className="hover:text-gray-300">Sell</a>
           <a href="#" className="hover:text-gray-300">Rent</a>
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
 
         {/* CTA Button */}
         <div>
-          <button className="buttonbg text-black font-semibold px-4 py-2 rounded hover:bg-gray-200 transition">
+          <button className="buttonbg text-white font-bold px-4 py-2 rounded hover:bg-gray-200 transition">
             LIST YOUR PROPERTY
           </button>
         </div>

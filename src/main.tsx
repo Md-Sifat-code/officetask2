@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 
-import  MainLayout from "./Layouts/Main_Layout";
+import MainLayout from "./Layouts/Main_Layout";
 import Buy from "./Pages/Buy";
 import Sell from "./Pages/Sell";
 import Rent from "./Pages/Rent";
@@ -22,62 +22,62 @@ import RentDetails from "./Pages/RentDetails";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout/>,
-    children : [
+    element: <MainLayout />,
+    children: [
       {
-        path : "/",
-        element: <Buy/>
+        path: "/",
+        element: <Buy />
       },
       {
-        path : "/buy/:id",
-        element: <Buy/>
+        path: "/buy/:id",
+        element: <Buy />
       },
       {
-        path : "/sell",
-        element : <Sell/>
+        path: "/sell",
+        element: <Sell />
       }
       ,
       {
-        path : "/rent",
-        element : <Rent/>
+        path: "/rent",
+        element: <Rent />
       },
       {
-        path:'/rent/:id',
-        element:<RentDetails/>
+        path: '/rent/:id',
+        element: <RentDetails />
       }
       ,
       {
-        path : "/company",
-        element : <Company/>
+        path: "/company",
+        element: <Company />
       }
       ,
       {
-        path : "/visas",
-        element : <Visas/>
+        path: "/visas",
+        element: <Visas />
       }
       ,
       {
-        path : "/location",
-        element : <Locations/>
+        path: "/location",
+        element: <Locations />
       },
       {
-        path : "/partner",
-        element : <Partner/>
+        path: "/partner",
+        element: <Partner />
       }
       ,
       {
-        path : "/privacy",
-        element : <Privacy/>
+        path: "/privacy",
+        element: <Privacy />
       }
       ,
       {
-        path : "/terms",
-        element : <Terms/>
+        path: "/terms",
+        element: <Terms />
       }
       ,
       {
-        path : "/invest",
-        element : <Investment/>
+        path: "/invest",
+        element: <Investment />
       }
     ]
   },

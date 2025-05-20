@@ -4,6 +4,7 @@ import WhyShould from '../components/Investment/WhyShould';
 import Banner from '../components/Investment/Banner';
 import { KeyReasons } from '../components/Investment/KeyReasons';
 import { Contactus } from '../components/Investment/Contactus';
+import Footer from '../components/Footer';
 
 const Investment: React.FC = () => {
     return (
@@ -13,6 +14,7 @@ const Investment: React.FC = () => {
             <WhyShould></WhyShould>
             <KeyReasons></KeyReasons>
             <Contactus></Contactus>
+            <Footer></Footer>
         </div>
     );
 };

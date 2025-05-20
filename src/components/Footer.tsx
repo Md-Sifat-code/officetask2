@@ -6,17 +6,17 @@ import { CiMail } from "react-icons/ci";
 const Footer: React.FC = () => {
   return (
     <footer className="relative bg-[#FEF6F5] text-black pt-40 pb-6 px-6 mt-[300px]">
-      
+
       {/* Floating Card */}
       <div className="absolute -top-60 left-1/2 transform -translate-x-1/2 bg-[#FEF6F5] border border-[#F4A896] shadow-lg rounded-lg px-6 md:px-8 py-6 w-[95%] max-w-6xl z-10 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex flex-col gap-4 text-center md:text-left w-full md:w-2/3">
           <div>
             <h2 className="text-xl font-bold text-[#358597] mb-1">WE'RE HERE TO HELP</h2>
             <p className="text-sm text-gray-700">
-              We help clients locate prime opportunities, including Dubai off plan property investments, 
-              that have exceptional value and potential. Whether you're looking for a lucrative investment 
-              property in Dubai or a dream home, our bespoke services ensure you find the perfect match. 
-              From property selection to streamlining the buying process, we provide comprehensive support 
+              We help clients locate prime opportunities, including Dubai off plan property investments,
+              that have exceptional value and potential. Whether you're looking for a lucrative investment
+              property in Dubai or a dream home, our bespoke services ensure you find the perfect match.
+              From property selection to streamlining the buying process, we provide comprehensive support
               and expert guidance at every step.
             </p>
           </div>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-20">
-        
+
         {/* Logo & Newsletter */}
         <div className="space-y-6">
           <img src="/assets/logo2.png" alt="Logo" className="h-12" />

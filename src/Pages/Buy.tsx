@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Discover from '../BuyComponents/Discover';
 import ExploreNow from '../BuyComponents/ExploreNow';
 import Buy_Partners from '../BuyComponents/Buy_Partners';
+import MakeBest from '../BuyComponents/MakeBest';
 
 const Buy: React.FC = () => {
   return (
@@ -19,6 +20,9 @@ const Buy: React.FC = () => {
       </div>
       <div>
         <Buy_Partners/>
+      </div>
+      <div>
+        <MakeBest/>
       </div>
     </div>
   );

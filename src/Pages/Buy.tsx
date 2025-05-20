@@ -2,6 +2,7 @@ import React from 'react';
 
 import Hero from '../components/Hero';
 import Discover from '../BuyComponents/Discover';
+import ExploreNow from '../BuyComponents/ExploreNow';
 
 const Buy: React.FC = () => {
   return (
@@ -11,6 +12,9 @@ const Buy: React.FC = () => {
       </div>
       <div>
         <Discover/>
+      </div>
+      <div>
+        <ExploreNow/>
       </div>
     </div>
   );

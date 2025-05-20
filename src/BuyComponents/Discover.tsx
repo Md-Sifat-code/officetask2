@@ -17,6 +17,10 @@ const Discover: React.FC = () => {
           Check out some of our featured houses, apartments, town homes, commercial spaces, and more.
         </p>
       </div>
+      <div className='flex flex-row gap-6 items-center mt-8 text-white'>
+        <p className='px-6 py-2 rounded-xl font-bold buttonbg'>Discover</p>
+        <p className='text-[#F4A896] px-6 py-2 rounded-xl font-bold border border-[#F4A896]'>Explore</p>
+      </div>
 
     </div>
   );

@@ -1,10 +1,13 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+
+import Hero from '../components/Hero';
 
 const Buy: React.FC = () => {
   return (
     <div>
-      <Outlet/>
+      <div>
+        <Hero/>
+      </div>
     </div>
   );
 };

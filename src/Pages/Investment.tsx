@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import WhyShould from '../components/Investment/WhyShould';
 import Banner from '../components/Investment/Banner';
+import { KeyReasons } from '../components/Investment/KeyReasons';
 
 const Investment: React.FC = () => {
     return (
@@ -9,6 +10,7 @@ const Investment: React.FC = () => {
             <Outlet />
             <Banner></Banner>
             <WhyShould></WhyShould>
+            <KeyReasons></KeyReasons>
         </div>
     );
 };

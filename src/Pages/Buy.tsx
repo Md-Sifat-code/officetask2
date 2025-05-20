@@ -7,7 +7,7 @@ import Buy_Partners from '../BuyComponents/Buy_Partners';
 import MakeBest from '../BuyComponents/MakeBest';
 import Display from '../BuyComponents/Display';
 import Lavelup from '../BuyComponents/Lavelup';
-import Footer from '../components/Footer';
+
 
 const Buy: React.FC = () => {
   return (
@@ -33,9 +33,7 @@ const Buy: React.FC = () => {
       <div>
         <Lavelup/>
       </div>
-      <div>
-        <Footer/>
-      </div>
+      
     </div>
   );
 };

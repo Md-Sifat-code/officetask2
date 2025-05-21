@@ -80,14 +80,14 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label className="block text-sm mb-1">Property Type</label>
+          {/* <label className="block text-sm mb-1">Property Type</label> */}
           <select
             name="propertyType"
             className="w-full border-b border-gray-400 bg-transparent text-gray-400 focus:outline-none"
             value={formData.propertyType}
             onChange={handleChange}
           >
-            {/* <option value="" disabled>Select Property Type</option> */}
+            <option value="" disabled>Property Type</option>
             <option value="apartment">Apartment</option>
             <option value="villa">Villa</option>
             <option value="townhouse">Townhouse</option>
@@ -95,14 +95,14 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label className="block text-sm mb-1">Number Bed Rooms</label>
+          {/* <label className="block text-sm mb-1">Number Bed Rooms</label> */}
           <select
             name="bedrooms"
             className="w-full border-b border-gray-400 bg-transparent text-gray-400 focus:outline-none"
             value={formData.bedrooms}
             onChange={handleChange}
           >
-            {/* <option value="" disabled>Select Bedrooms</option> */}
+            <option value="" disabled>Number Bed Rooms</option>
             <option value="1">1 Bedroom</option>
             <option value="2">2 Bedrooms</option>
             <option value="3">3 Bedrooms</option>

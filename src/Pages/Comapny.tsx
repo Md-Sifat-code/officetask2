@@ -85,7 +85,7 @@ const Company: React.FC = () => {
         <img className='w-full' src={location} alt="" />
       </div>
 
-      <Contactus title='Request a callback'></Contactus>
+      <Contactus hero='Request a callback'></Contactus>
 
     </div>
   );

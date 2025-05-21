@@ -1,6 +1,6 @@
 interface BannerProps {
     hero: string;
-    title: string;
+    title?: string;
 }
 
 export const Contactus = ({ hero, title }: BannerProps) => {
@@ -8,9 +8,9 @@ export const Contactus = ({ hero, title }: BannerProps) => {
         <div className='max-w-7xl px-4 mx-auto py-24 '>
             <div className='space-y-12'>
                 <h1 className='text-[#F4A896] text-4xl font-bold text-center'>
-                    Contact Us for Information About Premium Dubai Investment Properties
+                    {hero}
                 </h1>
-                <p className='text-[#358597] text-lg text-center'>We help clients locate prime opportunities, including Dubai off plan property investments, that have exceptional value and potential. Whether you're looking for a lucrative investment property in Dubai or a dream home, our bespoke services ensure you find the perfect match. From property selection to streamlining the buying process, we provide comprehensive support and expert guidance at every step.</p>
+                <p className='text-[#358597] text-lg text-center'>{title}</p>
             </div>
 
             {/* form section */}

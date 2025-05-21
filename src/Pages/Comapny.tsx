@@ -5,6 +5,7 @@ import heroImg from '/assets/partnerImg.jpg'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FaEnvelope } from 'react-icons/fa';
 import location from '/assets/rent-details-location.png'
+import { Contactus } from '../components/Investment/Contactus';
 const Company: React.FC = () => {
   return (
     <div>
@@ -83,6 +84,8 @@ const Company: React.FC = () => {
         <p className='text-sm'>Dubai Hills Estate, Dubai</p>
         <img className='w-full' src={location} alt="" />
       </div>
+
+      <Contactus title='Request a callback'></Contactus>
 
     </div>
   );

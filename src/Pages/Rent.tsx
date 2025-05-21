@@ -1,10 +1,16 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import Homehero from "../HomeComponents/Homehero"
+import Hotels from "../HomeComponents/Hotels"
 
 const Rent: React.FC = () => {
   return (
     <div>
-      <Outlet/>
+      <div>
+            <Homehero/>
+        </div>
+        <div className='mt-12'>
+            <Hotels/>
+        </div>
     </div>
   );
 };

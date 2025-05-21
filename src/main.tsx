@@ -19,6 +19,7 @@ import Terms from "./Pages/Terms";
 import Investment from "./Pages/Investment";
 import RentDetails from "./Pages/RentDetails";
 import Home from "./Pages/Home";
+import BuyDetails from "./Pages/BuyDetails";
 
 const router = createBrowserRouter([
   {
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/buy/:id",
-        element: <Buy />
+        element: <BuyDetails/>
       },
       {
         path: "/sell",

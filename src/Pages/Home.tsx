@@ -1,3 +1,4 @@
+import HomeContact from "../HomeComponents/HomeContact"
 import Homehero from "../HomeComponents/Homehero"
 import Hotels from "../HomeComponents/Hotels"
 
@@ -10,6 +11,9 @@ const Home = () => {
         </div>
         <div>
             <Hotels/>
+        </div>
+        <div className="mb-12">
+            <HomeContact/>
         </div>
       
     </div>

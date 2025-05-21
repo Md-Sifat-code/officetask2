@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from "/assets/ok1.png"
 const Display: React.FC = () => {
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-2">
@@ -8,7 +8,7 @@ const Display: React.FC = () => {
         {/* First Image with Text Overlay */}
         <div className="relative w-full md:w-1/3">
           <img
-            src="/assets/ok1.png"
+            src={logo}
             alt="Display 1"
             className="w-full h-96 object-cover rounded-lg"
           />

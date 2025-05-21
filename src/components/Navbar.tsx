@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const navItems = [
-    { name: 'Buy', path: '/' },
+    { name: 'Buy', path: '/buy' },
     { name: 'Sell', path: '/sell' },
     { name: 'Rent', path: '/rent' },
     { name: 'Invest', path: '/invest' }, // Assuming this is planned

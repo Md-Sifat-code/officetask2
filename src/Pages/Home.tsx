@@ -1,9 +1,16 @@
+import Homehero from "../HomeComponents/Homehero"
+import Hotels from "../HomeComponents/Hotels"
 
 
 const Home = () => {
   return (
     <div>
-        <h1>Home</h1>
+        <div>
+            <Homehero/>
+        </div>
+        <div>
+            <Hotels/>
+        </div>
       
     </div>
   )

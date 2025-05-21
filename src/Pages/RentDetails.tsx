@@ -1,4 +1,3 @@
-import Contact from "../rentDetails/Contact";
 import PropertyCard from "../rentDetails/PropertyCard";
 import RentHero from "../rentDetails/RentHero";
 import Summary from "../rentDetails/Summary";
@@ -9,7 +8,7 @@ const RentDetails = () => {
     <RentHero/>
     <div className="px-[10%]">
          <Summary/>
-         <Contact/>
+         {/* <Contact/> */}
     </div>
       <div className="bg-[#FEF6F5]">
          <div className="flex gap-x-[20%]  p-5 mt-10 px-[10%]">

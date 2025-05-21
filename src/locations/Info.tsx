@@ -1,5 +1,3 @@
-
-
 const Info = () => {
   return (
    <div className="text-center mt-10">

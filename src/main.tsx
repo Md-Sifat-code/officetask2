@@ -20,6 +20,7 @@ import Investment from "./Pages/Investment";
 import RentDetails from "./Pages/RentDetails";
 import Home from "./Pages/Home";
 import BuyDetails from "./Pages/BuyDetails";
+import Contact from "./rentDetails/Contact";
 
 const router = createBrowserRouter([
   {
@@ -54,7 +55,7 @@ const router = createBrowserRouter([
       ,
       {
         path: "/company",
-        element: <Company />
+        element: <Contact/>
       }
       ,
       {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: "/invest",
         element: <Investment />
+      },
+      {
+        path : "/contact",
+        element: <Company/>
       }
     ]
   },

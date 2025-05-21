@@ -1,10 +1,21 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+
+import TermHero from '../TermComponents/TermHero';
+import TermBody from '../TermComponents/TermBody';
+import PrivacyContact from '../PrivacyComponents/PrivacyContact';
 
 const Terms: React.FC = () => {
   return (
     <div>
-      <Outlet/>
+      <div>
+        <TermHero/>
+      </div>
+      <div>
+        <TermBody/>
+      </div>
+      <div>
+        <PrivacyContact/>
+      </div>
     </div>
   );
 };

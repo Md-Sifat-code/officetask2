@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const navItems = [
@@ -20,9 +20,9 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex flex-row justify-between items-center">
         
         {/* Logo */}
-        <div className="text-2xl font-bold text-white">
+        <Link to={'/'} className="text-2xl font-bold text-white">
           <img src="/assets/logo.png" alt="Logo" className="h-10" />
-        </div>
+        </Link>
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6 text-white">

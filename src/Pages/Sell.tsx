@@ -1,10 +1,14 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import Hero from '../sell/Hero';
+import SellingProcess from '../sell/SellingProcess';
+import ContactForm from '../sell/ContactForm';
 
 const Sell: React.FC = () => {
   return (
     <div>
-      <Outlet/>
+      <Hero/>
+      <SellingProcess/>
+      <ContactForm/>
     </div>
   );
 };

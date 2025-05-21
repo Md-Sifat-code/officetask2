@@ -1,8 +1,8 @@
-import home from '../../public/assets/home-two.png'
-import doube_bed from '../../public/assets/home-two.png'
-import frame from '../../public/assets/Frame 529.png'
-import location from '../../public/assets/rent-details-location.png'
-import image from '../../public/assets/image 6.png'
+import home from '/assets/home-two.png'
+import doube_bed from '/assets/home-two.png'
+import frame from '/assets/Frame 529.png'
+import location from '/assets/rent-details-location.png'
+import image from '/assets/image 6.png'
 
 const Summary = () => {
   return (

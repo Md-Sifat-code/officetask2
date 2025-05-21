@@ -1,5 +1,5 @@
-import phone from '../../public/assets/phone-call.png';
-import rectangle from '../../public/assets/Rectangle 26.png';
+import phone from '/assets/phone-call.png';
+import rectangle from '/assets/Rectangle 26.png';
 
 const Contact = () => {
   return (

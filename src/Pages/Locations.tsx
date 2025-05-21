@@ -1,13 +1,22 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import Hero from '../locations/Hero';
+import Info from '../locations/Info';
+import Card from '../locations/Card';
+import PrimeLocations from '../locations/PrimeLocations';
 
 const Locations: React.FC = () => {
   return (
-    <div>
-      <Outlet />
-
-
+   <>
+   <Hero/>
+    <div className='px-[10%]'>
+      
+      <Info/>
     </div>
+    <div>
+      <Card/>
+      <PrimeLocations/>
+    </div>
+   </>
   );
 };
 

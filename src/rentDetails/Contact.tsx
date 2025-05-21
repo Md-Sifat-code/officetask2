@@ -3,8 +3,7 @@ import rectangle from '../../public/assets/Rectangle 26.png';
 
 const Contact = () => {
   return (
-  <div className='px-[10%] mt-15'>
-      <div className="bg-[#FEF6F5] p-10  border border-[#F4A896] rounded-md">
+  <div className="bg-[#FEF6F5] p-10  border border-[#F4A896] rounded-md">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
         {/* Left Section */}
         <div className="flex-1">
@@ -35,7 +34,6 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  </div>
   );
 };
 

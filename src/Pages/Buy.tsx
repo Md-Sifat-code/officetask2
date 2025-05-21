@@ -19,6 +19,9 @@ const Buy: React.FC = () => {
         <Discover/>
       </div>
       <div>
+        
+      </div>
+      <div>
         <ExploreNow/>
       </div>
       <div>

@@ -21,6 +21,7 @@ import RentDetails from "./Pages/RentDetails";
 import Home from "./Pages/Home";
 import BuyDetails from "./Pages/BuyDetails";
 import Contact from "./rentDetails/Contact";
+import Contact1 from "./Pages/Contact1";
 
 const router = createBrowserRouter([
   {
@@ -55,7 +56,7 @@ const router = createBrowserRouter([
       ,
       {
         path: "/company",
-        element: <Contact/>
+        element: <Contact1/>
       }
       ,
       {

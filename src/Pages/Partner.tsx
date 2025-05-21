@@ -1,10 +1,19 @@
+import Banner from '../components/Investment/Banner';
+import heroImg from '/assets/partnerImg.jpg'
 
+import WhyShould from '../components/Investment/WhyShould';
+import CallToAction from '../components/Locations/CallToAction';
+import { Contactus } from '../components/Investment/Contactus';
 import { Outlet } from 'react-router-dom';
 
-const Partner= () => {
+const Partner = () => {
   return (
     <div>
-      <Outlet/>
+      <Outlet />
+      <Banner title="Partnership" hero={heroImg}></Banner>
+      <WhyShould></WhyShould>
+      <CallToAction></CallToAction>
+      <Contactus></Contactus>
     </div>
   );
 };

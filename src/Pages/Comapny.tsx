@@ -4,13 +4,14 @@ import Banner from '../components/Investment/Banner';
 import heroImg from '/assets/partnerImg.jpg'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FaEnvelope } from 'react-icons/fa';
+import location from '/assets/rent-details-location.png'
 const Company: React.FC = () => {
   return (
     <div>
       <Outlet />
       <Banner title="Contact Us" hero={heroImg}></Banner>
       {/* contact details */}
-      <div className='max-w-7xl mx-auto flex flex-col md:flex-row px-14 py-14'>
+      <div className='max-w-7xl mx-auto flex flex-col gap-6 md:flex-row px-14 py-14'>
         <div className='w-full  space-y-2' >
           <h1 className='text-[#F4A896] text-6xl'>
             Let's Connect and Get Started
@@ -44,22 +45,45 @@ const Company: React.FC = () => {
 
         </div>
         {/* right section */}
-        <div className='w-full'>
+        <div className='w-full space-y-8'>
           <div className='rounded-2xl bg-[#FCE4DE] p-4 space-y-2' >
             <h1 className='text-[#F4A896] text-2xl font-bold'>Connect with an Expert</h1>
             <p className='text-[#358597]'>Explore Our Team of Property Experts for Tailored Guidance.</p>
-            <div>
-              <div className="dropdown dropdown-bottom">
-                <div tabIndex={0} role="button" className="btn m-1">Click ⬇️</div>
+            <div className='flex justify-between '>
+              <div className="dropdown w-full dropdown-bottom bg-transparent">
+                <div tabIndex={0} role="button" className="btn m-1 bg-transparent border-none text-sm
+                ">Agent Name ⬇️</div>
+                <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                </ul>
+              </div>
+              <div className="dropdown w-full dropdown-bottom bg-transparent">
+                <div tabIndex={0} role="button" className="btn m-1 bg-transparent border-none text-sm
+                ">Buy Properties ⬇️</div>
                 <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                   <li><a>Item 1</a></li>
                   <li><a>Item 2</a></li>
                 </ul>
               </div>
             </div>
+            <button className='w-full bg-[#F4A896] text-center py-2 rounded-md text-white'>Find Expert</button>
+          </div>
+          <div className='rounded-2xl bg-[#FCE4DE] p-4 space-y-2' >
+            <h1 className='text-[#F4A896] text-2xl font-bold'>Connect with an Expert</h1>
+            <p className='text-[#358597]'>Explore Our Team of Property Experts for Tailored Guidance.</p>
+
+            <button className='w-full bg-[#F4A896] text-center py-2 rounded-md text-white'>Find Expert</button>
           </div>
         </div>
+
       </div>
+      <div className='max-w-7xl mx-auto px-14'>
+        <h2 className='font-bold text-sm text-[#F4A896]'>Location</h2>
+        <p className='text-sm'>Dubai Hills Estate, Dubai</p>
+        <img className='w-full' src={location} alt="" />
+      </div>
+
     </div>
   );
 };

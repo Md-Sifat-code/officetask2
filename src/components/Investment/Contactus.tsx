@@ -1,6 +1,9 @@
+interface BannerProps {
+    hero: string;
+    title: string;
+}
 
-
-export const Contactus = () => {
+export const Contactus = ({ hero, title }: BannerProps) => {
     return (
         <div className='max-w-7xl px-4 mx-auto py-24 '>
             <div className='space-y-12'>

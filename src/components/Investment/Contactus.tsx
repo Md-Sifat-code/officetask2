@@ -2,7 +2,7 @@
 
 export const Contactus = () => {
     return (
-        <div className='max-w-7xl mx-auto py-24 '>
+        <div className='max-w-7xl px-4 mx-auto py-24 '>
             <div className='space-y-12'>
                 <h1 className='text-[#F4A896] text-4xl font-bold text-center'>
                     Contact Us for Information About Premium Dubai Investment Properties

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const KeyReasons = () => {
     return (
-        <div className='bg-[#FEF6F5]'>
+        <div className='bg-[#FEF6F5] px-4'>
             <div className='max-w-7xl mx-auto flex justify-between gap-5  px-2 py-14'>
                 <div className='flex flex-col gap-5' >
                     <h1 className='text-4xl text-[#358597]'>Key Reasons to Invest in Dubai Real Estate</h1>

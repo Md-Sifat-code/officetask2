@@ -11,7 +11,7 @@ const PropertyCard = () => {
 
   return (
     <div className="bg-[#FEF6F5]">
-        <div className="bg-[#FEF6F5] p-10">
+        <div className="bg-[#FEF6F5]">
         <div className="max-w-xs rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-[#FEF6F5]">
       <div className="relative">
         <Carousel
@@ -28,10 +28,11 @@ const PropertyCard = () => {
             </div>
           ))}
         </Carousel>
+      
+      </div>
         <span className="absolute top-4 left-4 bg-green-500 text-white text-sm font-bold px-3 py-1 rounded z-10">
           AED 10,850.00
         </span>
-      </div>
 
       {/* Content */}
       <div className="p-4">

@@ -14,7 +14,7 @@ const Investment: React.FC = () => {
             <WhyShould></WhyShould>
             <KeyReasons></KeyReasons>
             <Contactus></Contactus>
-            <Footer></Footer>
+
         </div>
     );
 };

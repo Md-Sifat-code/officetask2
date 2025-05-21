@@ -1,10 +1,23 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import PrivacyHero from '../PrivacyComponents/PrivacyHero';
+import PrivacyContact from '../PrivacyComponents/PrivacyContact';
+import PrivacyBody from '../PrivacyComponents/PrivacyBody';
+
 
 const Privacy: React.FC = () => {
   return (
     <div>
-      <Outlet/>
+      <div>
+        <PrivacyHero/>
+      </div>
+      <div>
+        <PrivacyBody/>
+      </div>
+      <div className='mt-24'>
+        <PrivacyContact/>
+
+      </div>
+      
     </div>
   );
 };

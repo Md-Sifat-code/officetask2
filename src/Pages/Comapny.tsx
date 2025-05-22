@@ -12,7 +12,7 @@ const Company: React.FC = () => {
       <Outlet />
       <Banner title="Contact Us" hero={heroImg}></Banner>
       {/* contact details */}
-      <div className='max-w-7xl mx-auto flex flex-col gap-6 md:flex-row px-14 py-14'>
+      <div className='max-w-7xl mx-auto flex  flex-col gap-6 md:flex-row px-14 py-14'>
         <div className='w-full  space-y-2' >
           <h1 className='text-[#F4A896] text-6xl'>
             Let's Connect and Get Started

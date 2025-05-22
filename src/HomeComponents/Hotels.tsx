@@ -1,10 +1,17 @@
-import { FaBed, FaBath, FaRulerCombined, FaWhatsapp, FaMapMarkerAlt, FaDoorOpen } from 'react-icons/fa';
+import {
+  FaBed,
+  FaBath,
+  FaRulerCombined,
+  FaWhatsapp,
+  FaMapMarkerAlt,
+  FaDoorOpen,
+} from 'react-icons/fa';
 
 const Hotels = () => {
   return (
-    <div className="p-6 space-y-8">
+    <div className="p-4 md:p-6 space-y-8">
       {/* Filter Section */}
-      <div className="grid grid-cols-6 gap-4 max-w-6xl container mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-6xl mx-auto w-full">
         <div className="flex flex-col">
           <label className="mb-1 text-sm font-medium text-gray-700">Area/Community</label>
           <input
@@ -58,23 +65,23 @@ const Hotels = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="grid grid-cols-3 gap-6 max-w-6xl container mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto w-full">
         {Array.from({ length: 9 }).map((_, index) => (
           <div
             key={index}
-            className="border border-gray-200 rounded shadow-sm bg-[#FEF6F5]  hover:shadow-md transition space-y-4"
+            className="border border-gray-200 rounded shadow-sm bg-[#FEF6F5] hover:shadow-md transition space-y-4"
           >
-            {/* 1. Image */}
+            {/* Image */}
             <div>
               <img
-                src= "/assets/h1.jpg"
+                src="/assets/h1.jpg"
                 alt={`Hotel ${index + 1}`}
-                className="w-full h-48 object-cover rounded"
+                className="w-full h-48 object-cover rounded-t"
               />
             </div>
 
-            {/* 2. Icons Row */}
-            <div className="flex justify-between text-gray-600 text-sm px-4">
+            {/* Icons Row */}
+            <div className="flex flex-wrap justify-between text-gray-600 text-sm px-4">
               <div className="flex items-center gap-1">
                 <FaDoorOpen /> <span>3 Rooms</span>
               </div>
@@ -89,8 +96,8 @@ const Hotels = () => {
               </div>
             </div>
 
-            {/* 3. Price + CTA */}
-            <div className="flex flex-row justify-between items-center px-4">
+            {/* Price + CTA */}
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 px-4">
               <div className="flex flex-col">
                 <h1 className="font-semibold text-gray-700">Price</h1>
                 <p className="text-blue-600 font-bold text-lg">$850,000</p>
@@ -100,15 +107,15 @@ const Hotels = () => {
               </button>
             </div>
 
-            {/* 4. Title */}
-            <div className='px-4'>
+            {/* Title */}
+            <div className="px-4">
               <h1 className="font-bold text-md text-gray-800">
                 EXCLUSIVE | ULTRA LUXURIOUS VILLA | SINGLE ROW
               </h1>
             </div>
 
-            {/* 5. Location */}
-            <div className="flex items-center gap-2 text-sm text-gray-500 px-4 mb-4">
+            {/* Location */}
+            <div className="flex items-center gap-2 text-sm text-gray-500 px-4 pb-4">
               <FaMapMarkerAlt />
               <span>Dubai Hills, Dubai</span>
             </div>

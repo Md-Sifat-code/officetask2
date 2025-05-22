@@ -14,7 +14,7 @@ const Visas: React.FC = () => {
 
 
       <div className='bg-[#FEF6F5] px-4'>
-        <div className='max-w-7xl mx-auto flex justify-between gap-5  px-2 py-14'>
+        <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-5  px-12 py-14'>
           <div className='flex flex-col gap-5' >
             <h1 className='text-4xl text-[#358597]'>About the Dubai Property Investment Visa</h1>
             <p>Have questions? We’ve got answers. Below, we address the most common questions related to this blog post to help you gain deeper insights.</p>

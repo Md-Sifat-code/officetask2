@@ -6,8 +6,11 @@ import {
   FaMapMarkerAlt,
   FaDoorOpen,
 } from 'react-icons/fa';
+import { useAllPropertiesQuery } from '../redux/features/auth/buy/getPropertyApi';
 
 const Hotels = () => {
+  const {data} = useAllPropertiesQuery(undefined);
+  console.log(data)
   return (
     <div className="p-4 md:p-6 space-y-8">
       {/* Filter Section */}

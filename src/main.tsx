@@ -22,6 +22,8 @@ import Home from "./Pages/Home";
 import BuyDetails from "./Pages/BuyDetails";
 import Contact from "./rentDetails/Contact";
 import Contact1 from "./Pages/Contact1";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +105,8 @@ if (!rootElement) {
 
 ReactDOM.createRoot(rootElement as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );
